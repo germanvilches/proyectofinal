@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name=" Haz crecer tu negocio a tu manera con ProdArt" content= "Sombreros,Mochilas,Hamacas,Bolsos." >
     <title>ProdArt</title>
     <!-- iconos-->
     <link rel="apple-touch-icon" href="assets/img/">
@@ -41,7 +42,11 @@
             <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
                 ProdArt
             </a>
-
+            <!-- fecha -->
+            <script>
+                var f = new Date();
+                document.write(f.getDate() + "/" + (f.getMonth() +1) + "/" + f.getFullYear());
+                </script>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -53,17 +58,14 @@
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                            <a class="nav-link" href="acercade.html">A cerca de</a>
                         </li>
-                        
-                        <li class="nav-item">
-                            <a class="nav-link" href="productos.html">Productos</a>
-                        </li>
-
                         <li class="nav-item">
                             <a class="nav-link" href="compras.html">Compras</a>
                         </li>
-                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="productos.html">Productos</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contacto.html">Contacto</a>
                         </li>
@@ -81,13 +83,13 @@
                     <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
                         <i class="fa fa-fw fa-search text-dark mr-2"></i>
                     </a>
-                    <a class="nav-icon position-relative text-decoration-none" href="#">
+                    <a class="nav-icon position-relative text-decoration-none" href="compras.html">
                         <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
-                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">0</span>
+                        <span id="carrito-value" class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark"></span>
                     </a>
                     <a class="nav-icon position-relative text-decoration-none" href="#">
                         <i class="fa fa-fw fa-user text-dark mr-3"></i>
-                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+9</span>
+                        <span id="contador" class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark"></span>
                     </a>
                 </div>
             </div>
@@ -234,7 +236,7 @@
         <div class="row">
             <div class="col-12 col-md-4 mb-4">
                 <div class="card h-100">
-                    <a href="#">
+                    <a href="compras.html">
                         <img src="assets/img/feature_prod_01.jpg" class="card-img-top">
                     </a>
                     <div class="card-body">
@@ -251,7 +253,7 @@
             </div>
             <div class="col-12 col-md-4 mb-4">
                 <div class="card h-100">
-                    <a href="#">
+                    <a href="compras.html">
                         <img src="assets/img/feature_prod_02.jpg" class="card-img-top">
                     </a>
                     <div class="card-body">
@@ -268,7 +270,7 @@
             </div>
             <div class="col-12 col-md-4 mb-4">
                 <div class="card h-100">
-                    <a href="#">
+                    <a href="compras.html">
                         <img src="assets/img/feature_prod_01.jpg" class="card-img-top">
                     </a>
                     <div class="card-body">
@@ -314,21 +316,21 @@
                 <div class="col-md-4 pt-5">
                     <h2 class="h2 text-light border-bottom pb-3 border-light">Productos</h2>
                     <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="#">Sombreros</a></li>
-                        <li><a class="text-decoration-none" href="#">Hamacas</a></li>
-                        <li><a class="text-decoration-none" href="#">Platería</a></li>
-                        <li><a class="text-decoration-none" href="#">Decoración</a></li>
-                        <li><a class="text-decoration-none" href="#">Vasos</a></li>
-                        <li><a class="text-decoration-none" href="#">Tapetes</a></li>
+                        <li><a class="text-decoration-none" href="compras.html">Sombreros</a></li>
+                        <li><a class="text-decoration-none" href="compras.html">Hamacas</a></li>
+                        <li><a class="text-decoration-none" href="compras.html">Platería</a></li>
+                        <li><a class="text-decoration-none" href="compras.html">Decoración</a></li>
+                        <li><a class="text-decoration-none" href="compras.html">Vasos</a></li>
+                        <li><a class="text-decoration-none" href="compras.html">Tapetes</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4 pt-5">
                     <h2 class="h2 text-light border-bottom pb-3 border-light">Mas información</h2>
                     <ul class="list-unstyled text-light footer-link-list">
                         <li><a class="text-decoration-none" href="index.html">Home</a></li>
-                        <li><a class="text-decoration-none" href="nosotros.html">Nosotros</a></li>
+                        <li><a class="text-decoration-none" href="acercade.html">A cerca de</a></li>
+                        <li><a class="text-decoration-none" href="compras.html">Compras</a></li>
                         <li><a class="text-decoration-none" href="productos.html">Productos</a></li>
-                        <li><a class="text-decoration-none" href="compras.html">Compras</a></li>                        
                         <li><a class="text-decoration-none" href="contacto.html">Contacto</a></li>
                     </ul>
                 </div>
@@ -380,6 +382,7 @@
         <script src="assets/js/jquery-1.11.0.min.js"></script>
         <script src="assets/js/templatemo.js"></script>
         <script src="assets/js/custom.js"></script>
+        <script src="assets/js/carrito.js"></script>
 
 </body>
 </html>
