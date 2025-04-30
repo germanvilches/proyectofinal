@@ -129,6 +129,7 @@ document.getElementById('contador').textContent = visitas;
         carritoContainer.textContent = `${value}`;
     }
 
+
     function renderizarCarrito() {
         DOMcarrito.textContent = '';
         const carritoSinDuplicados = [...new Set(carrito)];
@@ -158,7 +159,7 @@ document.getElementById('contador').textContent = visitas;
         });
         DOMtotal.textContent = calcularTotal();
     }
-
+//Borrar item carrito
     function borrarItemCarrito(evento) {
         const id = evento.target.dataset.item;
         carrito = carrito.filter((carritoId) => {
@@ -168,7 +169,7 @@ document.getElementById('contador').textContent = visitas;
         guardarCarritoEnLocalStorage();
         handleCarritoValue(carrito.length);
     }
-
+//Calcular total
     function calcularTotal() {
         return carrito.reduce((total, item) => {
             const miItem = baseDeDatos.filter((itemBaseDatos) => {
@@ -178,6 +179,7 @@ document.getElementById('contador').textContent = visitas;
         }, 0).toFixed(2);
     }
 
+//Vaciar carrito    
     function vaciarCarrito() {
         carrito = [];
         renderizarCarrito();
