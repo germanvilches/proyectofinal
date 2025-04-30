@@ -185,7 +185,7 @@ document.getElementById('contador').textContent = visitas;
         renderizarCarrito();
         localStorage.clear();
     }
-
+//Actualiza el localStorage
     function guardarCarritoEnLocalStorage() {
         miLocalStorage.setItem('carrito', JSON.stringify(carrito));
     }
