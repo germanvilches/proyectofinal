@@ -39,6 +39,11 @@ p {
   text-align: justify;
 }
 
+.page-link.active{
+  color: #e0e0e0;  
+}
+
+
 .h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 48px !important;
