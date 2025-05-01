@@ -99,19 +99,19 @@
     <!-- formulario de contacto-->
          <div class="conatiner py-5">
             <div class="row py-5">
-                <form class="col-md-8 m-auto" method="post" role="form">
+                <form class="col-md-8 m-auto" method="post" role="form" onsubmit="return validarFormulario()">
                     <div class="row">
                         <div class="form-group col-md-4 mb-3">
                             <label for="inputname">Nombre</label>
-                            <input type="text" class="form-control mt-1" id="nombre" name="nombre" placeholder="Nombre" required>
+                            <input type="text" class="form-control mt-1" id="nombre" name="nombre" placeholder="Nombre">
                         </div>
                         <div class="form-group col-md-4 mb-3">
                             <label for="inputmail">Email</label>
-                            <input type="email" class="form-control mt-1" id="email" name="email" placeholder="Email" required>
+                            <input type="email" class="form-control mt-1" id="email" name="email" placeholder="Email">
                         </div>
                         <div class="mb-3">
                             <label for="inputmensaje">Mensaje</label>
-                            <textarea class="form-control mt-1" id="mensaje" name="mensaje" placeholder="Mensaje" rows="8" required>
+                            <textarea class="form-control mt-1" id="mensaje" name="mensaje" placeholder="Mensaje" rows="8">
 
                             </textarea>
                         </div>
@@ -240,5 +240,6 @@
      <script src="assets/js/jquery-1.11.0.min.js"></script>
      <script src="assets/js/templatemo.js"></script>
      <script src="assets/js/custom.js"></script>
+     <script src="assets/js/validarFormulario.js"></script>
 </body>
 </html>
