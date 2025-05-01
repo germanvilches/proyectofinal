@@ -7,126 +7,126 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 1,
             nombre: 'Adidas Camiseta Local Medellin 2025',
             precio: 329000,
-            imagen: 'assets/img/st_ropa_c1',
+            imagen: 'assets/img/st_ropa_c1.jpg',
             categoria: 'ropa'
         },
         {
             id: 2,
             nombre: 'Adidas Camiseta Colombia A Hombre',
             precio: 159900,
-            imagen: 'assets/img/st_ropa_c2',
+            imagen: 'assets/img/st_ropa_c2.jpg',
             categoria: 'ropa'
         },
         {
             id: 3,
             nombre: 'Nike Camiseta Gsw Es Logo1 Hombre',
             precio: 169000,
-            imagen: 'assets/img/st_ropa_c3',
+            imagen: 'assets/img/st_ropa_c3.jpg',
             categoria: 'ropa'
         },
         {
             id: 4,
             nombre: 'Under Armour Camisilla Live Sportstyle Tank Mujer Rosado',
             precio: 149000,
-            imagen: 'assets/img/st_ropa_d1',
+            imagen: 'assets/img/st_ropa_d1.jpg',
             categoria: 'ropa'
         },
         {
             id: 5,
             nombre: 'Nike Camiseta Pro Df 365 Mujer Azul',
             precio: 259000,
-            imagen: 'assets/img/st_ropa_d2',
+            imagen: 'assets/img/st_ropa_d2.jpg.jpg',
             categoria: 'ropa'
         },
         {
             id: 6,
             nombre: 'Nike Camiseta Sleeve Top Mujer',
             precio: 149000,
-            imagen: 'assets/img/st_ropa_d3',
+            imagen: 'assets/img/st_ropa_d3.jpg',
             categoria: 'ropa'
         },
         {
             id: 7,
             nombre: 'Fila Tenis Malik Hombre Azul',
             precio: 239000,
-            imagen: 'assets/img/st_calzado_c1',
+            imagen: 'assets/img/st_calzado_c1.jpg',
             categoria: 'calzado'
         },
         {
             id: 8,
             nombre: 'Under Armour Tenis Charged Edge Hombre Negro',
             precio: 379000,
-            imagen: 'assets/img/st_calzado_c2',
+            imagen: 'assets/img/st_calzado_c2.jpg',
             categoria: 'calzado'
         },   
         {
             id: 9,
             nombre: 'Adidas Tenis Barreda Hombre Negro',
             precio: 329000,
-            imagen: 'assets/img/st_calzado_c3',
+            imagen: 'assets/img/st_calzado_c3.jpg',
             categoria: 'calzado'
         },
         {
             id: 10,
             nombre: 'Skechers Tenis Bounder Gri-bla Niños Gris',
             precio: 159000,
-            imagen: 'assets/img/st_calzado_n1',
+            imagen: 'assets/img/st_calzado_n1.jpg',
             categoria: 'calzado'
         },
         {
             id: 11,
             nombre: 'Fila Tenis Ps Brendel Niños Negro',
             precio: 179000,
-            imagen: 'assets/img/st_calzado_n2',
+            imagen: 'assets/img/st_calzado_n2.jpg',
             categoria: 'calzado'
         },
         {
             id: 12,
             nombre: 'Skechers Tenis Microspec Advance Niños Naranja',
             precio: 139000,
-            imagen: 'assets/img/st_calzado_n3',
+            imagen: 'assets/img/st_calzado_n3.jpg',
             categoria: 'calzado'
         },
         {
             id: 13,
             nombre: 'Adidas Gorra De Beisbol New Logo Azu-bla Unisex Azul',
             precio: 89000,
-            imagen: 'assets/img/st_acce_c1',
+            imagen: 'assets/img/st_acce_c1.jpg',
             categoria: 'accesorios'
         },
         {
             id: 14,
             nombre: 'Puma Gorra Ess Cat Bb Unisex Negro',
             precio: 79000,
-            imagen: 'assets/img/st_acce_c2',
+            imagen: 'assets/img/st_acce_c2.jpg',
             categoria: 'accesorios'
         },
         {
             id: 15,
             nombre: 'Adidas Gorra Jff Bb Unisex Negro',
             precio: 139000,
-            imagen: 'assets/img/st_acce_c3',
+            imagen: 'assets/img/st_acce_c3.jpg',
             categoria: 'accesorios'
         },
         {
             id: 16,
             nombre: 'Adidas Visera Run Visor Cc Unisex Negro',
             precio: 89000,
-            imagen: 'assets/img/st_acce_d1',
+            imagen: 'assets/img/st_acce_d1.jpg',
             categoria: 'accesorios'
         },
         {
             id: 17,
             nombre: 'Nike Gorra Jordan Club Mujer Morado',
             precio: 99000,
-            imagen: 'assets/img/st_acce_d2',
+            imagen: 'assets/img/st_acce_d2.jpg',
             categoria: 'accesorios'
         },
         {
             id: 18,
             nombre: 'Nike Gorra Df Club Unisex Azul',
             precio: 159000,
-            imagen: 'assets/img/st_acce_d3',
+            imagen: 'assets/img/st_acce_d3.jpg',
             categoria: 'accesorios'
         }
     ];
