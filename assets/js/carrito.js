@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 5,
             nombre: 'Nike Camiseta Pro Df 365 Mujer Azul',
             precio: 259000,
-            imagen: 'assets/img/st_ropa_d2.jpg.jpg',
+            imagen: 'assets/img/st_ropa_d2.jpg',
             categoria: 'ropa'
         },
         {
