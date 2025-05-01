@@ -39,8 +39,8 @@ p {
   text-align: justify;
 }
 
-.page-link.active{
-  color: #e0e0e0;  
+a {
+  text-decoration: none;
 }
 
 
