@@ -4,7 +4,7 @@ function validarFormulario(){
     const mensaje = document.getElementById("mensaje").value;
         
     if(!nombre) { alert("Ingrese campo nombre"); return false;}
-    if(emailemail.length == 0) { alert("Ingrese campo email");return false;}
+    if(!email) { alert("Ingrese campo email");return false;}
     if(!mensaje) { alert("Ingrese campo mensaje");return false;}   
         
     else{
