@@ -1,4 +1,4 @@
-const detallesPago = document.getElementById('detalles-pago');
+const detallesPago = document.getElementById('total');
 const transporte = document.getElementById('transporte');
 
 // Calcula el total con el costo del envío
