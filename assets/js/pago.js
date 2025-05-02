@@ -1,9 +1,10 @@
 document.getElementById('total-con-envio').textContent = "0";
 const detallesPago = document.getElementById('total');
 const transporte = document.getElementById('transporte');
-
+alert('✅ ¡Pago realizado con éxito! Gracias por tu compra.'+detallePago);
 // Calcula el total con el costo del envío
 function calcularTotalConEnvio() {
+    
     const envio = parseFloat(transporte.value) || 0;
     const total2 = parseFloat(detallesPago.value) || 0;
     document.getElementById('total-con-envio').textContent = (total2 + envio).toFixed(2);
