@@ -1,4 +1,3 @@
-document.getElementById('total').textContent = "0";
 document.getElementById('total-con-envio').textContent = "0";
 const detallesPago = document.getElementById('total');
 const transporte = document.getElementById('transporte');
