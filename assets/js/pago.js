@@ -6,7 +6,7 @@ const transporte = document.getElementById('transporte');
 // Calcula el total con el costo del envío
 function calcularTotalConEnvio() {
     const envio = parseFloat(transporte.value) || 0;
-    const total = parseFloat(subtotal.value) || 0;
+    const total = parseFloat(subtotal.textContent) || 0;
     document.getElementById('total-con-envio').textContent = (total + envio).toFixed(2);
 }
 
