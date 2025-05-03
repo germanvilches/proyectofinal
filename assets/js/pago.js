@@ -1,5 +1,5 @@
 document.getElementById('total-con-envio').textContent = "0";
-const detallesPago = document.getElementById('total');
+const detallesPago = document.getElementById('observaciones');
 const transporte = document.getElementById('transporte');
 
 // Calcula el total con el costo del envío
