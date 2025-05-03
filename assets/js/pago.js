@@ -1,12 +1,13 @@
 document.getElementById('total-con-envio').textContent = "0";
+const subtotal = document.getElementById('total');
 const detallesPago = document.getElementById('observaciones');
 const transporte = document.getElementById('transporte');
 
 // Calcula el total con el costo del envío
 function calcularTotalConEnvio() {
     const envio = parseFloat(transporte.value) || 0;
-    const total2 = parseFloat(detallesPago.value) || 0;
-    document.getElementById('total-con-envio').textContent = (total2 + envio).toFixed(2);
+    const total = parseFloat(subtotal.value) || 0;
+    document.getElementById('total-con-envio').textContent = (total + envio).toFixed(2);
 }
 
 // Escuchar cambios en la agencia de transporte
